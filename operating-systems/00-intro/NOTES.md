@@ -1,7 +1,14 @@
 # Virtualization
 
-**CPU Virtualization:** Process thinks it has access to all CPU
-**Memory Virtualization:** Process thinks it has access to all memory
+Give to process the illusion of
+- exclusivity
+- continuity
+- unlimited resources
+
+**CPU Virtualization:** Multiple programs "running" at the same time
+**Memory Virtualization:** Programs think they have access to the full memory
+**Cuncurrency problems:** Instructions that do not finish in one clock
+**Data persistance:** Data needs to be saved in memory and persist between reinitializations
 
 ### CPU Virtualization
 
