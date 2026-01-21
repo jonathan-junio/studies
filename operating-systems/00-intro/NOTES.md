@@ -41,4 +41,9 @@ waitpid()
 exec()
 ```
 
-**Process Control:** Signals to stop, continue, terminate etc
+**Process Control:** Signals to stop, continue, terminate etc.
+##### Limited direct execution protocol
+Kernel mode vs User mode
+user mode -> sys call -> trap table -> kernel mode -> return from trap -> user mode
+**Trap table:** trap instructions location, initialized on boot, protected
+Interrupt -> non cooperative schedule method
