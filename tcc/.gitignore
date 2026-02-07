@@ -1,0 +1,34 @@
+# build files
+build/
+bin/
+lib/
+*.o
+*.obj
+*.d
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# exec
+*.exe
+*.out
+PathfindingBenchmark
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+
+# benchmarks
+benchmarks/*.csv
+!benchmarks/.gitkeep
